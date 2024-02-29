@@ -1,0 +1,462 @@
+@import "../common/common.css";
+@import "../b19/b19title.css";
+
+body {
+    flex-direction: column;
+    display: flex;
+    width: 1800px;
+    height: fit-content;
+    font-family: 'PHI', 'HIMALAYA', '吞弥恰俊';
+    align-items: center;
+}
+
+.background img {
+    height: 100%;
+}
+
+body p {
+    color: white;
+    margin: 0px;
+    margin-block: 0;
+    margin-inline: 0;
+}
+
+.record_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title_box {
+
+    display: flex;
+
+    z-index: 2;
+}
+
+.box_title {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    filter: drop-shadow(0px 2px 2px #ff82e4);
+}
+
+.box_title-right-down,
+.box_title-left {
+    background-color: #ff82e4;
+    border-radius: 5px;
+}
+
+.box_title-left {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.box_title-left p {
+    font-size: 30px;
+    color: rgb(255 255 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box_title-right {
+    width: AUTO;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    right: 4;
+}
+
+.box_title-right p {
+    font-size: 30px;
+    color: rgb(255 255 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box_title-right-down {
+    position: absolute;
+    bottom: 0px;
+    height: 10px;
+    width: 100%;
+    z-index: 0;
+}
+
+.song_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background: #87ceeb6b; */
+    overflow: hidden;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.abox {
+    width: 330PX;
+    height: 174.0234375PX;
+    display: flex;
+    filter: drop-shadow(0px 0px 5px black);
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.imgbox,
+.infobox {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imgbox {
+    width: 100%;
+    height: 100%;
+    clip-path: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.imgbox img {
+    width: 100%;
+    z-index: 5;
+}
+
+.infobox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.coinbox,
+.coinbox_un {
+    height: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.coinbox p,
+.coinbox_un p {
+    font-size: 25px;
+    filter: drop-shadow(0px 0px 5px #000000aa);
+}
+
+.coinbox p {
+    color: #ffef00;
+}
+
+.coinbox_un p {
+    color: #ffffff;
+}
+
+.namebox {
+    background: linear-gradient(#000000aa 50%, #ffffff00);
+    backdrop-filter: blur(10px);
+}
+
+.namebox_ed {
+    background: linear-gradient(#ffd900c0 25%, #ffffff00);
+}
+
+.namebox_un {
+    background: linear-gradient(#ff0000c0 25%, #ffffff00);
+}
+
+.namebox,
+.namebox_ed,
+.namebox_un {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+.songsname {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.songsname p {
+    font-size: 23.5px;
+    filter: drop-shadow(0px 0px 5px #000000aa);
+    text-align: center;
+}
+
+.new-box {
+    width: 16%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 04px 5px black);
+}
+
+.new-box img {
+    height: 120%;
+}
+
+.songsinfo {
+    background: linear-gradient(#00000000, #000000aa 25%);
+    backdrop-filter: blur(10px);
+}
+
+.songsinfo_ed {
+    background: linear-gradient(#ffffff00, #ffd900c0 75%);
+}
+
+.songsinfo_un {
+    background: linear-gradient(#ffffff00, #ff0000c0 75%);
+}
+
+.songsinfo,
+.songsinfo_ed,
+.songsinfo_un {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.songsinfo p,
+.songsinfo_ed p,
+.songsinfo_un p {
+    font-size: 20px;
+    filter: drop-shadow(0px 0px 5px #000000aa);
+}
+
+.rank {
+    transform: skew(-13deg);
+    position: absolute;
+    left: 10;
+}
+
+.rank p {
+    font-size: 73px;
+    color: rgb(255 255 255 / 49%);
+    margin-top: -5%;
+}
+
+.songsinfo_ed .rank p,
+.songsinfo_un .rank p {
+    color: rgb(0 0 0 / 42%);
+}
+
+.score {
+    position: absolute;
+    left: 4%;
+}
+
+.score p {
+    font-size: 40px;
+}
+
+.acc {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    left: 200;
+    bottom: -6px;
+}
+
+.acc_1 p {
+    font-size: 30px;
+}
+
+.acc_2 p {
+    font-size: 10px;
+}
+
+.rks {
+    position: absolute;
+    left: 200px;
+    bottom: 24px;
+}
+
+.rks p {
+    font-size: 30px;
+}
+
+.Nosignal {
+    width: 87%;
+    height: 243px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(112 112 112 / 45%);
+    margin-bottom: 5%;
+    writing-mode: horizontal-tb;
+}
+
+.border_corner {
+    z-index: 2500;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0);
+    border: 6px solid #ffffff;
+}
+
+.border_corner_left_top {
+    top: 5px;
+    left: 5px;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+}
+
+.border_corner_right_top {
+    top: 5px;
+    right: 5px;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 4px;
+}
+
+.border_corner_left_bottom {
+    bottom: 5px;
+    left: 5px;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 4px;
+}
+
+.border_corner_right_bottom {
+    bottom: 5px;
+    right: 5px;
+    border-left: none;
+    border-top: none;
+    border-bottom-right-radius: 4px;
+}
+
+.Nosignal .border_corner,
+.Nosignal .line,
+.Nosignal .sqrt {
+    filter: drop-shadow(0 0 5px #fff);
+}
+
+.Nosignal .timeout,
+.Nosignal .client {
+    width: 90%;
+    margin-top: -0.5%;
+    margin-bottom: -0.5%;
+    z-index: 5;
+}
+
+.Nosignal .timeout p {
+    text-shadow:
+        0 0 1px #d8f9ffab,
+        1px 0 2px #d8f9ffab,
+        -1px 0 2px #d8f9ffab,
+        1px 0 5px #d8f9ffab,
+        -1px 0 10px #d8f9ffab;
+    margin-left: 5%;
+    font-size: 75px;
+    color: white;
+}
+
+.Nosignal .client p {
+    text-shadow:
+        0 0 1px #8eeeff,
+        1px 0 2px #8eeeff,
+        -1px 0 2px #8eeeff,
+        1px 0 5px #8eeeff88,
+        -1px 0 10px #8eeeff88;
+    margin-left: 5%;
+    font-size: 25px;
+    color: #00B0F0;
+}
+
+.Nosignal .line {
+    width: 20%;
+    margin: 0;
+    border-bottom: 5px solid;
+    border-color: white;
+    margin-left: 5%;
+}
+
+.Nosignal .sqrt {
+    width: 89%;
+    height: 20%;
+    border: 3px solid;
+    border-color: white;
+    margin-left: 5%;
+    margin-top: 16;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: repeating-linear-gradient(-45deg, #ffffff, #ffffff 5px, rgb(255 255 255 / 0%) 0, rgb(255 255 255 / 0%) 10px);
+    filter: drop-shadow(0px 0px 3px #ffffff);
+}
+
+.createdbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    writing-mode: horizontal-tb;
+    justify-content: center;
+}
+
+.createdbox p {
+    color: white;
+    font-size: 70px;
+    font-family: 'Aldrich', 'PHI';
+}
+
+.phi-plugin {
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.ver {
+    display: flex;
+    z-index: 1;
+}
+
+.phi-plugin p {
+    font-size: 80px;
+    text-shadow: 0 0 20px rgb(0 186 255);
+}
+
+.ver p {
+    font-size: 40px;
+    text-shadow: 0 0 20px #fff700;
+}
