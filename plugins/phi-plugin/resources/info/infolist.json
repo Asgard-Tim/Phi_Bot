@@ -6306,38 +6306,204 @@
     },
     "ReEndofaDream.umavsモリモリあつし":{
         "song": "Re：End of a Dream",
-        "illustration": "",
-        "illustration_big": "",
         "chapter": "Side Story 3 盗乐行",
-        "bpm": "180",
+        "bpm": "212",
         "composer": "uma vs. モリモリあつし",
-        "length": "1:57",
+        "length": "2:21",
         "illustrator": "masiro vs. adaptor",
         "chart": {
           "EZ": {
             "level": "7",
             "difficulty": "7.5",
-            "combo": "333",
+            "combo": "",
             "charter": "Barbarianerman, Overture before the story"
           },
           "HD": {
             "level": "13",
             "difficulty": "13.1",
-            "combo": "666",
+            "combo": "",
             "charter": "Barbarianerman, Main theme within the somnium"
           },
           "IN": {
             "level": "15",
             "difficulty": "15.8",
-            "combo": "888",
+            "combo": "",
             "charter": "Latency, Finale of the dream"
           },
           "AT": {
             "level": "16",
             "difficulty": "16.4",
-            "combo": "888",
+            "combo": "",
             "charter": "XMT, Encore after the end"
           }
         }
-      }
+      },
+      "GVNGlitterVomitusandNeon.SaltySaltUnfold33": {
+        "song": "G.V.N. (Glitter,Vomitus and Neon)",
+        "chapter": "单曲精选集",
+        "bpm": "175",
+        "composer": "Salty Salt & Unfold33",
+        "length": "2:41",
+        "illustrator": "祈莲",
+        "chart": {
+            "EZ": {
+                "level": "5",
+                "difficulty": "5.0",
+                "combo": "635",
+                "charter": "B.B.M."
+            },
+            "HD": {
+                "level": "9",
+                "difficulty": "9.5",
+                "combo": "900",
+                "charter": "B.B.M."
+            },
+            "IN": {
+                "level": "15",
+                "difficulty": "15.6",
+                "combo": "1545",
+                "charter": "A.S.H."
+            }
+        }
+    },
+    "CrushBETA.shadow_bling": {
+        "song": "Crush BETA",
+        "chapter": "单曲精选集",
+        "bpm": "200",
+        "composer": "shadow_bling",
+        "length": "2:15",
+        "illustrator": "笔记RE",
+        "chart": {
+            "EZ": {
+                "level": "4",
+                "difficulty": "4.0",
+                "combo": "270",
+                "charter": "Clutter BETA"
+            },
+            "HD": {
+                "level": "11",
+                "difficulty": "11.5",
+                "combo": "666",
+                "charter": "Crush βETA"
+            },
+            "IN": {
+                "level": "15",
+                "difficulty": "15.3",
+                "combo": "977",
+                "charter": "Timi今天吃神马"
+            }
+        }
+    },
+    "PANICPARADISE.DJSHIONY": {
+        "song": "PANIC PARADISE",
+        "chapter": "Side Story 3 盗乐行",
+        "bpm": "170",
+        "composer": "DJ SHION.Y",
+        "length": "2:09",
+        "illustrator": "百九十八",
+        "chart": {
+            "EZ": {
+                "level": "5",
+                "difficulty": "5.0",
+                "combo": "",
+                "charter": "Barianic Baradise"
+            },
+            "HD": {
+                "level": "11",
+                "difficulty": "11.5",
+                "combo": "",
+                "charter": "Barianic Baradise"
+            },
+            "IN": {
+                "level": "15",
+                "difficulty": "15.4",
+                "combo": "",
+                "charter": "Su1fuR -FAISEURS DE PANIQUE-"
+            }
+        }
+    },
+    "Khalid.Dolphin": {
+        "song": "Khalid",
+        "chapter": "Side Story 3 盗乐行",
+        "bpm": "128",
+        "composer": "Dolphin",
+        "length": "2:11",
+        "illustrator": "HAZUQU",
+        "chart": {
+            "EZ": {
+                "level": "4",
+                "difficulty": "4.0",
+                "combo": "",
+                "charter": "Barbarialid"
+            },
+            "HD": {
+                "level": "8",
+                "difficulty": "8.2",
+                "combo": "",
+                "charter": "Barbarialid"
+            },
+            "IN": {
+                "level": "13",
+                "difficulty": "13.1",
+                "combo": "",
+                "charter": "Ner＜Jazz for your soul .)"
+            }
+        }
+    },
+    "QuantumHyperspace.D_AAN": {
+        "song": "Quantum Hyperspace",
+        "chapter": "Side Story 3 盗乐行",
+        "bpm": "200",
+        "composer": "D_AAN",
+        "length": "1:55",
+        "illustrator": "sa1t",
+        "chart": {
+            "EZ": {
+                "level": "6",
+                "difficulty": "6.0",
+                "combo": "",
+                "charter": "Bariantum Hyperianerman"
+            },
+            "HD": {
+                "level": "11",
+                "difficulty": "11.2",
+                "combo": "",
+                "charter": "Bariantum Hyperianerman"
+            },
+            "IN": {
+                "level": "14",
+                "difficulty": "14.8",
+                "combo": "",
+                "charter": "IMD_0b0110"
+            }
+        }
+    },
+    "FreakyUndulationsNobleKnightsofTune.JehezukielKURORAK": {
+        "song": "Freaky Undulations ~Noble Knights of Tune~",
+        "chapter": "Side Story 3 盗乐行",
+        "bpm": "202",
+        "composer": "Jehezukiel + KURORAK",
+        "length": "2:16",
+        "illustrator": "PEZZ feat. 祈莲 & CattoHato",
+        "chart": {
+            "EZ": {
+                "level": "7",
+                "difficulty": "7.0",
+                "combo": "",
+                "charter": "Ner ~Freaky Cat of Charting~"
+            },
+            "HD": {
+                "level": "11",
+                "difficulty": "11.9",
+                "combo": "",
+                "charter": "ARE YOU JEITIE!!!"
+            },
+            "IN": {
+                "level": "15",
+                "difficulty": "15.1",
+                "combo": "",
+                "charter": "<= Noblesse Jeitie =>"
+            }
+        }
+    }
 }
