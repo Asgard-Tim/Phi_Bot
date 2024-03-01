@@ -162,6 +162,7 @@ export class phib19 extends plugin {
             data: undefined,
             PlayerId: save.saveInfo.PlayerId,
             Rks: Number(save.saveInfo.summary.rankingScore).toFixed(4),
+            Avatar: save.gameuser.avatar,
             Date: save.saveInfo.updatedAt,
             ChallengeMode: (save.saveInfo.summary.challengeModeRank - (save.saveInfo.summary.challengeModeRank % 100)) / 100,
             ChallengeModeRank: save.saveInfo.summary.challengeModeRank % 100,
