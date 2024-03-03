@@ -251,6 +251,7 @@ export class phisstk extends plugin {
         let data = {
             PlayerId: now.saveInfo.PlayerId,
             Rks: Number(now.saveInfo.summary.rankingScore).toFixed(4),
+            Avatar: now.gameuser.avatar,
             Date: now.saveInfo.updatedAt,
             ChallengeMode: (now.saveInfo.summary.challengeModeRank - (now.saveInfo.summary.challengeModeRank % 100)) / 100,
             ChallengeModeRank: now.saveInfo.summary.challengeModeRank % 100,

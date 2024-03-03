@@ -539,6 +539,7 @@ export class phiuser extends plugin {
             ChallengeModeRank: save.saveInfo.summary.challengeModeRank % 100,
             rks: save.saveInfo.summary.rankingScore,
             PlayerId: save.saveInfo.PlayerId,
+            Avatar: save.gameuser.avatar,
         }
 
         // let remsg = ''
@@ -637,6 +638,7 @@ export class phiuser extends plugin {
             PlayerId: save.saveInfo.PlayerId,
             Rks: Number(save.saveInfo.summary.rankingScore).toFixed(4),
             Date: save.saveInfo.updatedAt,
+            Avatar: save.gameuser.avatar,
             ChallengeMode: (save.saveInfo.summary.challengeModeRank - (save.saveInfo.summary.challengeModeRank % 100)) / 100,
             ChallengeModeRank: save.saveInfo.summary.challengeModeRank % 100,
             dan: await get.getDan(e.user_id),

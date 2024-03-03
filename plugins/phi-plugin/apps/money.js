@@ -233,6 +233,7 @@ export class phimoney extends plugin {
         let picdata = {
             PlayerId: save.saveInfo.PlayerId,
             Rks: Number(save.saveInfo.summary.rankingScore).toFixed(4),
+            Avatar: save.gameuser.avatar,
             Date: `${task_time[3]} ${task_time[1]}.${task_time[2]} ${task_time[4]}`,
             ChallengeMode: (save.saveInfo.summary.challengeModeRank - (save.saveInfo.summary.challengeModeRank % 100)) / 100,
             ChallengeModeRank: save.saveInfo.summary.challengeModeRank % 100,
@@ -311,6 +312,7 @@ export class phimoney extends plugin {
         let picdata = {
             PlayerId: now.saveInfo.PlayerId,
             Rks: Number(now.saveInfo.summary.rankingScore).toFixed(4),
+            Avatar: now.gameuser.avatar,
             Date: `${task_time[3]} ${task_time[1]}.${task_time[2]} ${task_time[4]}`,
             ChallengeMode: (now.saveInfo.summary.challengeModeRank - (now.saveInfo.summary.challengeModeRank % 100)) / 100,
             ChallengeModeRank: now.saveInfo.summary.challengeModeRank % 100,

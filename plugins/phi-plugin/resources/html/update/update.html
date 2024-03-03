@@ -32,6 +32,7 @@
         </div>
         <div class="m"></div>
         <div class="r">
+            <div class="text">
             <p>Player: {{PlayerId}}</p>
             <p>RankingScore: {{Rks}}
                 {{if added_rks_notes[0]}} <span
@@ -53,6 +54,10 @@
                     style="color: {{added_rks_notes[1].includes('+')?'gold':'red'}};">{{added_rks_notes[1]}}</span>{{/if}}
             </p>
             <p>Date: {{Date}}</p>
+            <div class="info">
+                <img src="{{_res_path}}html/avatar/avatar/{{Avatar}}.png" alt="Challenge">
+            </div>
+            </div>
         </div>
     </div>
     {{if box_line[0]||task_data}}
